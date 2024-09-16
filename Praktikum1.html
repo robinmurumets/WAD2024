@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/images/favicon.ico">
+    <title>My Dashboard</title>
+  </head>
+  <body>
+    <header>
+        <strong>Welcome to your dashboard!</strong>
+    </header>
+
+    <section>
+        <div>
+            <img src="res/images/me.png" width="128" height="128" alt="My picture">
+        </div>
+        <div>
+            <ul>
+                <li>Robin Murumets</li>
+                <li>22/06/2004</li>
+                <li> Software Engineering </li>
+            </ul>
+        </div>
+        <div>
+            <strong>2.65</strong>
+        </div>
+    </section>
+
+    <section>
+        <form>
+            <label for="Course"><strong>Course Title:</strong></label><br>
+            <input type="text" id="Course" name="Course"><br>
+            <label for="Semester"><Strong>Semester:</Strong></label><br>
+            <select name="Semester" id="Semester">
+                <option value="Fall">Fall</option>
+                <option value="Spring">Spring</option>
+            </select>
+            <br>
+            <strong>Attendance:</strong>
+            <br>
+            <input type="radio" id="Attendance1" value="Virtual Attendance" name="Attendance-Mode">
+            <label for="Attendance1">Virtual Attendance</label><br>
+            <input type="radio" id="Attendance2" value="Physical Attendance" name="Attendance-Mode">
+            <label for="Attendance2">Physical Attendance</label><br>
+        
+            <input type="submit" value="Submit">
+           </form> 
+    </section>
+
+    <section>
+        <h1>Courses</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Course Title</th>
+                <th>Semester</th>
+                <th>Grade</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tfoot>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://courses.cs.ut.ee/2023/ASD/fall" target="_blank">Agile software development</a></td>
+                    <td>fall</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://courses.cs.ut.ee/2022/systemsmodelling/fall" target="_blank">Systems modelling</a> </td>
+                    <td>fall</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://courses.cs.ut.ee/2023/RE/fall/Main/Upload" target="_blank">Requirements Engineering</a> </td>
+                    <td>fall</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> <a href="https://courses.cs.ut.ee/2021/HCI/spring" target="_blank">Human Computer Interaction</a> </td>
+                    <td>fall</td>
+                    <td>65</td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+            </li>
+            <li>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+            </li>
+        </ul>
+    </footer>
+  </body>
+</html>
+
